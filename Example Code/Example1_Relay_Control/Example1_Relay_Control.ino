@@ -16,7 +16,8 @@
 
 #include <Wire.h>
 
-#define RELAY_ADDR 0x6D //Only address that exists for this product
+#define RELAY_ADDR 0x6D // Default address - open jumper. 
+//#define RELAY_ADDR 0x6C // Address when jumper is closed.
 
 // Here are the commands to turn on and off individual relays. 
 #define TOGGLE_RELAY_ONE 0x01
