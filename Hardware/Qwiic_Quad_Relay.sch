@@ -20614,6 +20614,7 @@ using 5V Power Supply</text>
 <text x="152.4" y="48.26" size="1.27" layer="97" font="vector">Address 0x6D: HIGH (Default)
 Address 0x6C: LOW (Close Jumper)</text>
 <wire x1="170.18" y1="58.42" x2="170.18" y2="53.34" width="0.2032" layer="97" style="dashdot"/>
+<text x="76.2" y="111.76" size="2.032" layer="97" font="vector">7-15V</text>
 </plain>
 <instances>
 <instance part="K1" gate="K$1" x="40.64" y="152.4" smashed="yes">
