@@ -1,4 +1,4 @@
-SparkX Qwiic Quad Relay
+SparkFun Qwiic Quad Relay
 ========================================
 
 [![SparkFun Qwiic Quad Relay](https://cdn.sparkfun.com/assets/parts/1/3/4/6/2/15102-SparkFun_Qwiic_Quad_Relay-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/3/4/6/2/15102-SparkFun_Qwiic_Quad_Relay-01.jpg)
