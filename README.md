@@ -1,7 +1,7 @@
 SparkFun Qwiic Quad Relay
 ========================================
 
-[SparkFun Qwiic Quad Relay](https://cdn.sparkfun.com/assets/parts/1/3/4/6/2/15102-SparkFun_Qwiic_Quad_Relay-01a.jpg)
+![SparkFun Qwiic Quad Relay](https://cdn.sparkfun.com/assets/parts/1/3/4/6/2/15102-SparkFun_Qwiic_Quad_Relay-01a.jpg)
 
 [*SparkFun Qwiic Quad Relay (COM-15102)*](https://www.sparkfun.com/products/15102)
 The Qwiic Quad Relay is a product designed for switching not one, but **four** high powered devices, from your Arduino or other low powered microcontroller using I<sup>2</sup>C. It's rocking four [relays](https://www.sparkfun.com/products/100) on its' PCB rated up to 5 Amps per channel at 250VAC. Each channel is sporting its own colored LED and silk for easy identification, and has screw terminals for easy connection. 
