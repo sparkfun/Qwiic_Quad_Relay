@@ -24,7 +24,7 @@ Documentation
 
 Arduino Library
 --------------
-* **[SparkFun Qwiic Relay Library](https://github.com/sparkfun/SparkFun_Qwiic_Relay_Arduino_Library)** - SparkFun Arduino Library for controlloing the Qwiic Quad Relay
+* **[SparkFun Qwiic Relay Ardruino Library](https://github.com/sparkfun/SparkFun_Qwiic_Relay_Arduino_Library)** - SparkFun Arduino Library for controlloing the Qwiic Single and Quad Relay
 
 License Information
 -------------------
