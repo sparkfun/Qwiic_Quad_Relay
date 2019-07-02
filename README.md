@@ -9,7 +9,7 @@ The Qwiic Quad Relay is a product designed for switching not one, but **four** h
 The board is made to integrate easily into the [Qwiic environment](https://www.sparkfun.com/qwiic) with Qwiic connectors on each side for easy daisy chaining. At the heart of the product is an ATtiny84 with its own I<sup>2</sup>C address awaiting for I<sup>2</sup>C commands that are designated to turn on and off individual channels or _all_ the channels at once! All of this is detailed nicely in provided example code, which also walks you through changing the boards single I<sup>2</sup>C address. There is a four pin header broken out for those of you not taking advantage of the Qwiic connector.
 
 The onboard barrel jack is rated for wall warts in the range, 7-15V but there is a jumper on the underside in the case that your wall wart is 5V. Messing with such high voltage can be dangerous! We've included many safety precautions onto the PCB including, wide traces designed for high amperage, ground isolation between the relay and other circuitry, and a milled out area around the common pin of the relay.
--> [![alt text]()](https://cdn.sparkfun.com/assets/parts/1/3/4/6/2/15102-SparkFun_Qwiic_Quad_Relay-01a.jpg) <-
+
 Repository Contents
 -------------------
 
@@ -25,6 +25,7 @@ Documentation
 Arduino Library
 --------------
 * **[SparkFun Qwiic Relay Library](https://github.com/sparkfun/SparkFun_Qwiic_Relay_Arduino_Library)** - SparkFun Arduino Library for controlloing the Qwiic Quad Relay
+
 License Information
 -------------------
 
