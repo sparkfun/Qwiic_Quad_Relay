@@ -21160,14 +21160,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.002540625" layer="51"/>
 </package>
 <package name="INDUCTOR_15UH">
-<smd name="P1" x="-1.905" y="0" dx="2.3" dy="2.7" layer="1"/>
-<smd name="P2" x="1.795" y="0.05" dx="2.3" dy="2.7" layer="1"/>
-<wire x1="-1.555" y1="-1.45" x2="1.445" y2="-1.45" width="0.1524" layer="51"/>
-<wire x1="1.445" y1="-1.45" x2="1.445" y2="1.55" width="0.1524" layer="51"/>
-<wire x1="1.445" y1="1.55" x2="-1.555" y2="1.55" width="0.1524" layer="51"/>
-<wire x1="-1.555" y1="1.55" x2="-1.555" y2="-1.45" width="0.1524" layer="51"/>
-<text x="-1.505" y="1.9" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.528" y="-2.25" size="0.6096" layer="27">&gt;VALUE</text>
+<description>&lt;h3&gt;Non-standard 5x5 Inductor&lt;/h3&gt;
+Mechanical Specifications
+&lt;ul&gt;
+&lt;li&gt;Overall Size: 5mm x 5mm&lt;/li&gt;
+&lt;li&gt;Pad Size: 1.85mm x 4.1mm&lt;/li&gt;
+&lt;li&gt;Pad Pitch: 1.8mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="P1" x="-1.905" y="0" dx="1.85" dy="4.1" layer="1"/>
+<smd name="P2" x="1.745" y="0.05" dx="1.85" dy="4.1" layer="1"/>
+<wire x1="-2.56" y1="-2.45" x2="2.44" y2="-2.45" width="0.1524" layer="51"/>
+<wire x1="2.44" y1="-2.45" x2="2.44" y2="2.55" width="0.1524" layer="51"/>
+<wire x1="2.44" y1="2.55" x2="-2.56" y2="2.55" width="0.1524" layer="51"/>
+<wire x1="-2.56" y1="2.55" x2="-2.56" y2="-2.45" width="0.1524" layer="51"/>
+<text x="-1.66" y="2.8" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.683" y="-3.45" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="2.845" y1="-2.6" x2="2.845" y2="2.7" width="0.127" layer="39"/>
+<wire x1="2.845" y1="2.7" x2="-3.005" y2="2.7" width="0.127" layer="39"/>
+<wire x1="-3.005" y1="2.7" x2="-3.005" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-3.005" y1="-2.6" x2="2.845" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="2.55" x2="2.095" y2="2.55" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.45" x2="2.095" y2="-2.45" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
