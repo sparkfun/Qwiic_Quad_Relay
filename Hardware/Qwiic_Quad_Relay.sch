@@ -21309,6 +21309,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.002540625" layer="51"/>
 <wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.002540625" layer="51"/>
 </package>
+<package name="INDUCTOR_15UH">
+<smd name="P1" x="-1.905" y="0" dx="2.3" dy="2.7" layer="1"/>
+<smd name="P2" x="1.795" y="0.05" dx="2.3" dy="2.7" layer="1"/>
+<wire x1="-1.555" y1="-1.45" x2="1.445" y2="-1.45" width="0.1524" layer="51"/>
+<wire x1="1.445" y1="-1.45" x2="1.445" y2="1.55" width="0.1524" layer="51"/>
+<wire x1="1.445" y1="1.55" x2="-1.555" y2="1.55" width="0.1524" layer="51"/>
+<wire x1="-1.555" y1="1.55" x2="-1.555" y2="-1.45" width="0.1524" layer="51"/>
+<text x="-1.505" y="1.9" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.528" y="-2.25" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -21570,6 +21580,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="-DEM-2818C-15UH" package="INDUCTOR_15UH">
+<connects>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -21681,7 +21702,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-LHQ32-15UH" value="15uH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-DEM-2818C-15UH" value="15uH"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
@@ -22038,7 +22059,6 @@ Address 0x6C: LOW (Close Jumper)</text>
 </instance>
 <instance part="L1" gate="G$1" x="365.76" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="367.284" y="157.226" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="368.3" y="152.908" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="R6" gate="G$1" x="375.92" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="379.984" y="129.54" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
