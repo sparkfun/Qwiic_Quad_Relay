@@ -5884,6 +5884,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="L1" library="SparkFun-Coils" package="INDUCTOR_15UH" value="15uH" x="51.054" y="43.434" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.22" y="43.434" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="NDUC-15090" x="51.054" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="15uH" x="51.054" y="43.434" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603" value="2.0k" x="57.531" y="35.306" smashed="yes" rot="R90">

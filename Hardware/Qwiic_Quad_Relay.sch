@@ -21395,13 +21395,14 @@ Mechanical Specifications
 <technology name=""/>
 </technologies>
 </device>
-<device name="-DEM-2818C-15UH" package="INDUCTOR_15UH">
+<device name="-LQH5B-15UH" package="INDUCTOR_15UH">
 <connects>
 <connect gate="G$1" pin="1" pad="P1"/>
 <connect gate="G$1" pin="2" pad="P2"/>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="NDUC-15090" constant="no"/>
 <attribute name="VALUE" value="15uH" constant="no"/>
 </technology>
 </technologies>
@@ -21594,7 +21595,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-DEM-2818C-15UH" value="15uH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-LQH5B-15UH" value="15uH"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="12KOHM" device="-0603-1/10W-1%" value="12k"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
