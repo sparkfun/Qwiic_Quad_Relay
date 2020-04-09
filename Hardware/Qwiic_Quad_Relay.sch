@@ -21578,7 +21578,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="POWER_JACK" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
@@ -21588,7 +21587,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="1A/40V/500mV"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="ADR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="LMR14010A" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
@@ -21599,9 +21598,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="12KOHM" device="-0603-1/10W-1%" value="12k"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="BYP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="JP1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21759,11 +21761,11 @@ to power Quad Relay</text>
 </instance>
 <instance part="R12" gate="G$1" x="586.74" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="584.454" y="249.682" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="589.28" y="247.904" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="591.82" y="247.904" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="R13" gate="G$1" x="586.74" y="241.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="586.74" y="239.776" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="586.74" y="242.824" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="NAME" x="581.66" y="239.776" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="591.82" y="237.744" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="R14" gate="G$1" x="586.74" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="583.438" y="227.076" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -21882,9 +21884,6 @@ to power Quad Relay</text>
 <instance part="GND13" gate="1" x="340.36" y="137.16" smashed="yes">
 <attribute name="VALUE" x="340.36" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="421.64" y="165.1" smashed="yes">
-<attribute name="VALUE" x="421.64" y="167.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY17" gate="G$1" x="462.28" y="48.26" smashed="yes">
 <attribute name="VALUE" x="462.28" y="51.054" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -21913,7 +21912,7 @@ to power Quad Relay</text>
 <instance part="GND18" gate="1" x="561.34" y="50.8" smashed="yes">
 <attribute name="VALUE" x="561.34" y="50.546" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="551.18" y="55.88" smashed="yes">
+<instance part="ADR" gate="G$1" x="551.18" y="55.88" smashed="yes">
 <attribute name="NAME" x="548.64" y="58.42" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="601.98" y="33.02" smashed="yes"/>
@@ -21940,7 +21939,8 @@ to power Quad Relay</text>
 <attribute name="VALUE" x="391.668" y="155.321" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="L1" gate="G$1" x="408.94" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="410.464" y="159.766" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="410.21" y="160.02" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="412.75" y="154.94" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="R6" gate="G$1" x="419.1" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="423.164" y="132.08" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -21954,7 +21954,7 @@ to power Quad Relay</text>
 <attribute name="NAME" x="399.034" y="128.524" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="380.238" y="125.984" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="JP2" gate="G$1" x="551.18" y="71.12" smashed="yes" rot="R180">
+<instance part="LED" gate="G$1" x="551.18" y="71.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="548.64" y="73.66" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="BYP" gate="G$1" x="375.92" y="162.56" smashed="yes">
@@ -21962,6 +21962,14 @@ to power Quad Relay</text>
 </instance>
 <instance part="GND7" gate="1" x="462.28" y="35.56" smashed="yes">
 <attribute name="VALUE" x="459.74" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="JP1" gate="G$1" x="685.8" y="27.94" smashed="yes"/>
+<instance part="D12" gate="G$1" x="449.58" y="152.4" smashed="yes">
+<attribute name="NAME" x="447.04" y="154.432" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="447.04" y="150.368" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="454.66" y="165.1" smashed="yes">
+<attribute name="VALUE" x="454.66" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -22102,8 +22110,8 @@ to power Quad Relay</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="556.26" y1="55.88" x2="561.34" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="561.34" y1="55.88" x2="561.34" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="ADR" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="556.26" y1="71.12" x2="561.34" y2="71.12" width="0.1524" layer="91" style="longdash"/>
 <wire x1="561.34" y1="71.12" x2="561.34" y2="66.04" width="0.1524" layer="91" style="longdash"/>
 <wire x1="561.34" y1="66.04" x2="561.34" y2="55.88" width="0.1524" layer="91"/>
@@ -22617,26 +22625,14 @@ to power Quad Relay</text>
 <wire x1="500.38" y1="248.92" x2="500.38" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="452.12" y1="152.4" x2="454.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="152.4" x2="454.66" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <pinref part="BYP" gate="G$1" pin="2"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="414.02" y1="152.4" x2="419.1" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="152.4" x2="421.64" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="152.4" x2="434.34" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="152.4" x2="434.34" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="152.4" x2="444.5" y2="152.4" width="0.1524" layer="91"/>
-<junction x="434.34" y="152.4"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="444.5" y1="152.4" x2="444.5" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="419.1" y1="152.4" x2="419.1" y2="149.86" width="0.1524" layer="91"/>
-<junction x="419.1" y="152.4"/>
-<wire x1="421.64" y1="152.4" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
-<junction x="421.64" y="152.4"/>
-<wire x1="421.64" y1="162.56" x2="421.64" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="381" y1="162.56" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
-<junction x="421.64" y="162.56"/>
+<wire x1="454.66" y1="162.56" x2="454.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="381" y1="162.56" x2="454.66" y2="162.56" width="0.1524" layer="91"/>
+<junction x="454.66" y="162.56"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -22662,12 +22658,7 @@ to power Quad Relay</text>
 <junction x="350.52" y="152.4"/>
 <wire x1="347.98" y1="152.4" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="363.22" y1="152.4" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SHDN"/>
-<wire x1="360.68" y1="152.4" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="147.32" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
-<junction x="360.68" y="152.4"/>
+<wire x1="363.22" y1="152.4" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR_JUMP" class="0">
@@ -22677,7 +22668,7 @@ to power Quad Relay</text>
 <label x="632.46" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="ADR" gate="G$1" pin="1"/>
 <wire x1="546.1" y1="55.88" x2="543.56" y2="55.88" width="0.1524" layer="91"/>
 <label x="543.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -22763,7 +22754,7 @@ to power Quad Relay</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="546.1" y1="71.12" x2="538.48" y2="71.12" width="0.1524" layer="91" style="longdash"/>
 </segment>
@@ -22794,6 +22785,25 @@ to power Quad Relay</text>
 <pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="500.38" y1="236.22" x2="500.38" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V_OUT" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="414.02" y1="152.4" x2="419.1" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="152.4" x2="434.34" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="152.4" x2="434.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="152.4" x2="444.5" y2="152.4" width="0.1524" layer="91"/>
+<junction x="434.34" y="152.4"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="444.5" y1="152.4" x2="444.5" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="419.1" y1="152.4" x2="419.1" y2="149.86" width="0.1524" layer="91"/>
+<junction x="419.1" y="152.4"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="447.04" y1="152.4" x2="444.5" y2="152.4" width="0.1524" layer="91"/>
+<junction x="444.5" y="152.4"/>
 </segment>
 </net>
 </nets>
