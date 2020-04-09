@@ -3668,6 +3668,17 @@ to be daisy chained easily.&lt;/p&gt;
 </technology>
 </technologies>
 </device>
+<device name="1X04_NO_SILK_NO_POP" package="1X04_NO_SILK">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="POWER_JACK" prefix="J">
@@ -21533,7 +21544,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="U3" library="SparkFun-DiscreteSemi" deviceset="DUAL-OPTOISOLATOR" device="_SOIC8"/>
 <part name="U2" library="SparkFun-DiscreteSemi" deviceset="DUAL-OPTOISOLATOR" device="_SOIC8"/>
 <part name="U4" library="SparkFun-IC-Microcontroller" deviceset="ATTINY84-ARDUINO" device=""/>
