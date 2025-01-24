@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -65,6 +65,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -109,15 +110,46 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -157,6 +189,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
@@ -444,6 +478,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.3" y1="0.4" x2="0.3" y2="-0.4" width="0.127" layer="51"/>
 <wire x1="1.1176" y1="0.3048" x2="1.1176" y2="-0.3048" width="0.2032" layer="21"/>
 </package>
+<package name="DO-214BA">
+<description>&lt;h3&gt;Physical Specifications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Body Size: 4.57mm x 3.94mm
+&lt;li&gt;Pitch: 4.07mm
+&lt;li&gt; Pad Size: 1.52mm x 2.21mm
+&lt;li&gt; Total Overall Size: 5.59mm
+&lt;/ul&gt;</description>
+<smd name="A" x="-2.032" y="0" dx="1.52" dy="2.21" layer="1"/>
+<smd name="C" x="2.038" y="0" dx="1.52" dy="2.21" layer="1"/>
+<wire x1="-2.332" y1="-2" x2="2.238" y2="-2" width="0.1" layer="51"/>
+<wire x1="2.238" y1="-2" x2="2.238" y2="2" width="0.1" layer="51"/>
+<wire x1="2.238" y1="2" x2="-2.332" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.332" y1="2" x2="-2.332" y2="-2" width="0.1" layer="51"/>
+<rectangle x1="3.018" y1="-1.15" x2="3.418" y2="1.2" layer="21"/>
+<rectangle x1="0.968" y1="-1.55" x2="1.768" y2="1.5" layer="51"/>
+<wire x1="-2.982" y1="2.1" x2="-2.982" y2="-2.15" width="0.1" layer="39"/>
+<wire x1="-2.982" y1="-2.15" x2="2.968" y2="-2.15" width="0.1" layer="39"/>
+<wire x1="2.968" y1="-2.15" x2="2.968" y2="2.1" width="0.1" layer="39"/>
+<wire x1="2.968" y1="2.1" x2="-2.982" y2="2.1" width="0.1" layer="39"/>
+<text x="-2.286" y="2.159" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
+<text x="-2.413" y="-2.794" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -675,6 +732,18 @@ Dual channel. Isolates connections with use of light.</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-14072"/>
 <attribute name="VALUE" value="3A/10V/280mV"/>
+</technology>
+</technologies>
+</device>
+<device name="-LSM115JE3" package="DO-214BA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-15217" constant="no"/>
+<attribute name="VALUE" value="1A/15V/220mV" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21726,7 +21795,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-LQH5B-15UH" value="15uH"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="12KOHM" device="-0603-1/10W-1%" value="12k"/>
-<part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
+<part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
 <part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="BYP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22093,12 +22162,12 @@ to power Quad Relay</text>
 <attribute name="VALUE" x="459.74" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="G$1" x="685.8" y="27.94" smashed="yes"/>
-<instance part="D12" gate="G$1" x="449.58" y="152.4" smashed="yes">
-<attribute name="NAME" x="447.04" y="154.432" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="447.04" y="150.368" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D12" gate="G$1" x="454.66" y="152.4" smashed="yes">
+<attribute name="NAME" x="452.12" y="154.432" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="452.12" y="150.368" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="454.66" y="165.1" smashed="yes">
-<attribute name="VALUE" x="454.66" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="459.74" y="165.1" smashed="yes">
+<attribute name="VALUE" x="459.74" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -22755,13 +22824,13 @@ to power Quad Relay</text>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="C"/>
-<wire x1="452.12" y1="152.4" x2="454.66" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="152.4" x2="454.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="152.4" x2="459.74" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="152.4" x2="459.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <pinref part="BYP" gate="G$1" pin="2"/>
-<wire x1="454.66" y1="162.56" x2="454.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="381" y1="162.56" x2="454.66" y2="162.56" width="0.1524" layer="91"/>
-<junction x="454.66" y="162.56"/>
+<wire x1="459.74" y1="162.56" x2="459.74" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="381" y1="162.56" x2="459.74" y2="162.56" width="0.1524" layer="91"/>
+<junction x="459.74" y="162.56"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -22931,7 +23000,7 @@ to power Quad Relay</text>
 <wire x1="419.1" y1="152.4" x2="419.1" y2="149.86" width="0.1524" layer="91"/>
 <junction x="419.1" y="152.4"/>
 <pinref part="D12" gate="G$1" pin="A"/>
-<wire x1="447.04" y1="152.4" x2="444.5" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="152.4" x2="444.5" y2="152.4" width="0.1524" layer="91"/>
 <junction x="444.5" y="152.4"/>
 </segment>
 </net>
