@@ -21807,7 +21807,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="607.06" y="7.62" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="678.18" y="7.62" size="2.54" layer="94" font="vector">v20</text>
+<text x="678.18" y="7.62" size="2.54" layer="94" font="vector">v21</text>
 <text x="266.7" y="271.78" size="2.54" layer="94" font="vector">Relay Control</text>
 <text x="266.7" y="86.36" size="2.54" layer="94" font="vector">Connectors</text>
 <text x="530.86" y="177.8" size="2.54" layer="94" font="vector">ATtiny84</text>
